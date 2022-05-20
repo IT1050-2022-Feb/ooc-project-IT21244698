@@ -1,7 +1,7 @@
 # ooc-project-IT21244698
 ooc-project-IT21244698 created by GitHub Classroom
 
-MLB_03.02_03_Voting Program for award Nomination program
+MLB_03.02_03_Online Voting Program for award Nomination program
 ----------------------------------------------------------
 
 
