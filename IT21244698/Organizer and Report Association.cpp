@@ -20,7 +20,7 @@ class Report{
 		
 		void SetReportDetails(int vid, int nid, const char type[] );
 		
-		void GenerateReport(int vid, int nid, int oid);
+		void GenerateReport();
 		
 		~Report(){
 			cout<<"Report delete"<<endl;
@@ -35,11 +35,13 @@ class Organizer{
 		Report *rpt;
 		
 	public:
-			Organizer(int ID, const char name[], int age, Report *r){
-			Organizer_ID = ID;
-			strcpy(Oname, name);
-			Oage = age;
-			rpt = r;
+    Organizer();
+    
+		Organizer(int ID, const char name[], int age, Report *r){
+			    Organizer_ID = ID;
+			    strcpy(Oname, name);
+			    Oage = age;
+			    rpt = r;
 		
 		};	
 		

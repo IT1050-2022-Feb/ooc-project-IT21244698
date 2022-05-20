@@ -53,7 +53,9 @@ class Organizer{
 			vot[2] = new votingProgram(2003, "Best inovator in year", 15, "science");
 			
 		};	
-		
+    
+    Organizer(int ID, const char name[], int age);
+      
 		~Organizer(){
 			cout<<"Organizer deleted: " <<endl;
 			for(int i = 0; i < 3; i++){
